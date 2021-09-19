@@ -36,7 +36,7 @@ jobs:
         cd P0267_RefImpl
         mkdir Debug
         cd Debug
-        cmake --config Debug "-DCMAKE_BUILD_TYPE=Debug" ..
+        cmake ..
         cmake --build .
         sudo make install
 
@@ -55,7 +55,7 @@ jobs:
 
     - name: Test
       working-directory: ${{github.workspace}}/build
-      # Execute tests defined by the CMake configuration.  
+      # Execute my tests.
       # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
       run: ./test
       
