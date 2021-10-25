@@ -1,5 +1,7 @@
 # OpenStreetMap-Route-Planner
-OpenStreetMap Route 
+An OpenStreetMap Route using the A* search algorithm
+
+<img src="map.png"/>
 
 ## Cloning
 
