@@ -1,7 +1,7 @@
-The system is: Linux - 5.10.16.3-microsoft-standard-WSL2 - x86_64
+The system is: Linux - 5.10.60.1-microsoft-standard-WSL2 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc 
-Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/dhruv/mambaforge/envs/cpp/include
+Compiler: /usr/bin/cc 
+Build flags: 
 Id flags:  
 
 The output was:
@@ -10,11 +10,11 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/3.21.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++ 
-Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/dhruv/mambaforge/envs/cpp/include
+Compiler: /usr/bin/c++ 
+Build flags: 
 Id flags:  
 
 The output was:
@@ -23,66 +23,81 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/3.21.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68580/fast && /usr/bin/make -f CMakeFiles/cmTC_68580.dir/build.make CMakeFiles/cmTC_68580.dir/build
+make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68580.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_68580.dir/testCCompiler.c.o   -c /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_68580
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68580.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_68580.dir/testCCompiler.c.o  -o cmTC_68580 
+make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
+
+
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/dhruv/mambaforge/envs/cpp/bin/make -f Makefile cmTC_5243d/fast && /home/dhruv/mambaforge/envs/cpp/bin/make  -f CMakeFiles/cmTC_5243d.dir/build.make CMakeFiles/cmTC_5243d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2d94c/fast && /usr/bin/make -f CMakeFiles/cmTC_2d94c.dir/build.make CMakeFiles/cmTC_2d94c.dir/build
 make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include    -v -o CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o -c /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCCompilerABI.c
-Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs
-COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc
-Target: x86_64-conda-linux-gnu
-Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0
+Building C object CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-Supported LTO compression algorithms: zlib
-gcc version 11.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5243d.dir/'
- /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/cc1 -quiet -v -iprefix /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/ -isysroot /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/dhruv/mambaforge/envs/cpp/include /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5243d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o
-GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1
-GNU C17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)
-	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJ31fWt.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include"
-ignoring nonexistent directory "/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
-ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed"
-ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /home/dhruv/mambaforge/envs/cpp/include
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include
- /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
 End of search list.
-GNU C17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)
-	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: ddcfb82299b9e6bc63e7090673632da6
-COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/
-LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_5243d
-/home/dhruv/mambaforge/envs/cpp/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5243d.dir/link.txt --verbose=1
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/dhruv/mambaforge/envs/cpp/lib -Wl,-rpath-link,/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/lib -v CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o -o cmTC_5243d 
-Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs
-COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc
-COLLECT_LTO_WRAPPER=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper
-Target: x86_64-conda-linux-gnu
-Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o /tmp/ccJ31fWt.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_2d94c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d94c.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o  -o cmTC_2d94c 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-Supported LTO compression algorithms: zlib
-gcc version 11.1.0 (GCC) 
-COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/
-LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-L/home/dhruv/mambaforge/envs/cpp/lib' '-v' '-o' 'cmTC_5243d' '-dumpdir' 'cmTC_5243d.'
- /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/collect2 -plugin /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cch12iVg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5243d /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o -L/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0 -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../.. -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/dhruv/mambaforge/envs/cpp/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dhruv/mambaforge/envs/cpp/lib -rpath-link /home/dhruv/mambaforge/envs/cpp/lib CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o
-COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-L/home/dhruv/mambaforge/envs/cpp/lib' '-v' '-o' 'cmTC_5243d' '-dumpdir' 'cmTC_5243d.'
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d94c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAuTyZV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2d94c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d94c' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
 
 
@@ -90,125 +105,112 @@ make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/home/dhruv/mambaforge/envs/cpp/include]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
   end of search list found
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/include] ==> [/home/dhruv/mambaforge/envs/cpp/include]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
-  implicit include dirs: [/home/dhruv/mambaforge/envs/cpp/include;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/dhruv/mambaforge/envs/cpp/bin/make -f Makefile cmTC_5243d/fast && /home/dhruv/mambaforge/envs/cpp/bin/make  -f CMakeFiles/cmTC_5243d.dir/build.make CMakeFiles/cmTC_5243d.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_2d94c/fast && /usr/bin/make -f CMakeFiles/cmTC_2d94c.dir/build.make CMakeFiles/cmTC_2d94c.dir/build]
   ignore line: [make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include    -v -o CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o -c /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
-  ignore line: [Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs]
-  ignore line: [COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc]
-  ignore line: [Target: x86_64-conda-linux-gnu]
-  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0]
+  ignore line: [Building C object CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib]
-  ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5243d.dir/']
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/cc1 -quiet -v -iprefix /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/ -isysroot /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/dhruv/mambaforge/envs/cpp/include /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5243d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
-  ignore line: [GNU C17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)]
-  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJ31fWt.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include"]
-  ignore line: [ignoring nonexistent directory "/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
-  ignore line: [ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/include]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)]
-  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: ddcfb82299b9e6bc63e7090673632da6]
-  ignore line: [COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/]
-  ignore line: [LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_5243d]
-  ignore line: [/home/dhruv/mambaforge/envs/cpp/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5243d.dir/link.txt --verbose=1]
-  ignore line: [/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl -rpath /home/dhruv/mambaforge/envs/cpp/lib -Wl -rpath-link /home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/lib -v CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o -o cmTC_5243d ]
-  ignore line: [Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs]
-  ignore line: [COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-conda-linux-gnu]
-  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o /tmp/ccJ31fWt.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_2d94c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d94c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o  -o cmTC_2d94c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib]
-  ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/]
-  ignore line: [LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-L/home/dhruv/mambaforge/envs/cpp/lib' '-v' '-o' 'cmTC_5243d' '-dumpdir' 'cmTC_5243d.']
-  link line: [ /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/collect2 -plugin /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cch12iVg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5243d /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o -L/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0 -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../.. -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/dhruv/mambaforge/envs/cpp/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dhruv/mambaforge/envs/cpp/lib -rpath-link /home/dhruv/mambaforge/envs/cpp/lib CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/collect2] ==> ignore
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d94c' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAuTyZV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2d94c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cch12iVg.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccAuTyZV.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--sysroot=/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_5243d] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../..] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../..]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
-    arg [-rpath] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/lib] ==> ignore
-    arg [-O2] ==> ignore
-    arg [--sort-common] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [--disable-new-dtags] ==> ignore
-    arg [--gc-sections] ==> ignore
-    arg [-rpath] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/lib] ==> ignore
-    arg [-rpath-link] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/lib] ==> ignore
-    arg [CMakeFiles/cmTC_5243d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2d94c] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_2d94c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -220,91 +222,98 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--pop-state] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/lib] ==> [/home/dhruv/mambaforge/envs/cpp/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib] ==> [/home/dhruv/mambaforge/envs/cpp/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../..] ==> [/home/dhruv/mambaforge/envs/cpp/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit objs: [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
-  implicit dirs: [/home/dhruv/mambaforge/envs/cpp/lib;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0;/home/dhruv/mambaforge/envs/cpp/lib/gcc;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/lib;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9b63b/fast && /usr/bin/make -f CMakeFiles/cmTC_9b63b.dir/build.make CMakeFiles/cmTC_9b63b.dir/build
+make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b63b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -std=gnu++17 -o CMakeFiles/cmTC_9b63b.dir/testCXXCompiler.cxx.o -c /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9b63b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b63b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9b63b.dir/testCXXCompiler.cxx.o  -o cmTC_9b63b 
+make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
+
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/dhruv/mambaforge/envs/cpp/bin/make -f Makefile cmTC_b8445/fast && /home/dhruv/mambaforge/envs/cpp/bin/make  -f CMakeFiles/cmTC_b8445.dir/build.make CMakeFiles/cmTC_b8445.dir/build
+Run Build Command(s):/usr/bin/make cmTC_8aa69/fast && /usr/bin/make -f CMakeFiles/cmTC_8aa69.dir/build.make CMakeFiles/cmTC_8aa69.dir/build
 make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include    -v -std=gnu++17 -o CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o -c /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
-Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs
-COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++
-Target: x86_64-conda-linux-gnu
-Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0
+Building CXX object CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -std=gnu++17 -o CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-Supported LTO compression algorithms: zlib
-gcc version 11.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_b8445.dir/'
- /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/cc1plus -quiet -v -iprefix /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/ -isysroot /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/dhruv/mambaforge/envs/cpp/include /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b8445.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -std=gnu++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o
-GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1
-GNU C++17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)
-	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o -std=gnu++17 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmQsrzu.s
+GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include"
-ignoring nonexistent directory "/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
-ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed"
-ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include"
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /home/dhruv/mambaforge/envs/cpp/include
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/x86_64-conda-linux-gnu
- /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/backward
- /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
 End of search list.
-GNU C++17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)
-	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: bd6d07b2277143ad6a534ae90d1a4ac7
-COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/
-LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_b8445
-/home/dhruv/mambaforge/envs/cpp/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8445.dir/link.txt --verbose=1
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/dhruv/mambaforge/envs/cpp/lib -Wl,-rpath-link,/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/lib -v CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b8445 
-Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs
-COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++
-COLLECT_LTO_WRAPPER=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper
-Target: x86_64-conda-linux-gnu
-Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmQsrzu.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_8aa69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aa69.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8aa69 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-Supported LTO compression algorithms: zlib
-gcc version 11.1.0 (GCC) 
-COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/
-LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-L/home/dhruv/mambaforge/envs/cpp/lib' '-v' '-o' 'cmTC_b8445' '-shared-libgcc' '-dumpdir' 'cmTC_b8445.'
- /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/collect2 -plugin /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgPhkKc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b8445 /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o -L/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0 -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../.. -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/dhruv/mambaforge/envs/cpp/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dhruv/mambaforge/envs/cpp/lib -rpath-link /home/dhruv/mambaforge/envs/cpp/lib CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o
-COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-L/home/dhruv/mambaforge/envs/cpp/lib' '-v' '-o' 'cmTC_b8445' '-shared-libgcc' '-dumpdir' 'cmTC_b8445.'
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8aa69' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Bdv7T.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8aa69 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8aa69' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
 
 
@@ -312,134 +321,122 @@ make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/home/dhruv/mambaforge/envs/cpp/include]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/x86_64-conda-linux-gnu]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/backward]
-    add: [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
   end of search list found
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/include] ==> [/home/dhruv/mambaforge/envs/cpp/include]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include/c++/11.1.0]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/x86_64-conda-linux-gnu] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include/c++/11.1.0/x86_64-conda-linux-gnu]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/backward] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include/c++/11.1.0/backward]
-  collapse include dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
-  implicit include dirs: [/home/dhruv/mambaforge/envs/cpp/include;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include/c++/11.1.0;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include/c++/11.1.0/x86_64-conda-linux-gnu;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/include/c++/11.1.0/backward;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/dhruv/mambaforge/envs/cpp/bin/make -f Makefile cmTC_b8445/fast && /home/dhruv/mambaforge/envs/cpp/bin/make  -f CMakeFiles/cmTC_b8445.dir/build.make CMakeFiles/cmTC_b8445.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_8aa69/fast && /usr/bin/make -f CMakeFiles/cmTC_8aa69.dir/build.make CMakeFiles/cmTC_8aa69.dir/build]
   ignore line: [make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include    -v -std=gnu++17 -o CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o -c /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs]
-  ignore line: [COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
-  ignore line: [Target: x86_64-conda-linux-gnu]
-  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0]
+  ignore line: [Building CXX object CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -std=gnu++17 -o CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib]
-  ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_b8445.dir/']
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/cc1plus -quiet -v -iprefix /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/ -isysroot /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/dhruv/mambaforge/envs/cpp/include /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b8445.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -std=gnu++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
-  ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)]
-  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o -std=gnu++17 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmQsrzu.s]
+  ignore line: [GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include"]
-  ignore line: [ignoring nonexistent directory "/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
-  ignore line: [ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/include]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/include-fixed]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/include]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/x86_64-conda-linux-gnu]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/11.1.0/backward]
-  ignore line: [ /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-conda-linux-gnu)]
-  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: [GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: bd6d07b2277143ad6a534ae90d1a4ac7]
-  ignore line: [COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/]
-  ignore line: [LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_b8445]
-  ignore line: [/home/dhruv/mambaforge/envs/cpp/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8445.dir/link.txt --verbose=1]
-  ignore line: [/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl -rpath /home/dhruv/mambaforge/envs/cpp/lib -Wl -rpath-link /home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/lib -v CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b8445 ]
-  ignore line: [Reading specs from /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/specs]
-  ignore line: [COLLECT_GCC=/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-conda-linux-gnu]
-  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1628138005912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/11.1.0]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmQsrzu.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_8aa69]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aa69.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8aa69 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib]
-  ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/bin/]
-  ignore line: [LIBRARY_PATH=/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dhruv/mambaforge/envs/cpp/include' '-L/home/dhruv/mambaforge/envs/cpp/lib' '-v' '-o' 'cmTC_b8445' '-shared-libgcc' '-dumpdir' 'cmTC_b8445.']
-  link line: [ /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/collect2 -plugin /home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgPhkKc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b8445 /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o -L/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0 -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../.. -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/dhruv/mambaforge/envs/cpp/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dhruv/mambaforge/envs/cpp/lib -rpath-link /home/dhruv/mambaforge/envs/cpp/lib CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o /home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/collect2] ==> ignore
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8aa69' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Bdv7T.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8aa69 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/home/dhruv/mambaforge/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgPhkKc.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3Bdv7T.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_b8445] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../..] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../..]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib]
-    arg [-L/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
-    arg [-rpath] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/lib] ==> ignore
-    arg [-O2] ==> ignore
-    arg [--sort-common] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [--disable-new-dtags] ==> ignore
-    arg [--gc-sections] ==> ignore
-    arg [-rpath] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/lib] ==> ignore
-    arg [-rpath-link] ==> ignore
-    arg [/home/dhruv/mambaforge/envs/cpp/lib] ==> ignore
-    arg [CMakeFiles/cmTC_b8445.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8aa69] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_8aa69.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -447,40 +444,31 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o]
-    arg [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o]
-  collapse obj [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/lib] ==> [/home/dhruv/mambaforge/envs/cpp/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc] ==> [/home/dhruv/mambaforge/envs/cpp/lib/gcc]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../lib] ==> [/home/dhruv/mambaforge/envs/cpp/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/11.1.0/../../..] ==> [/home/dhruv/mambaforge/envs/cpp/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
-  collapse library dir [/home/dhruv/mambaforge/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit objs: [/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtbeginS.o;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0/crtendS.o;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
-  implicit dirs: [/home/dhruv/mambaforge/envs/cpp/lib;/home/dhruv/mambaforge/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/11.1.0;/home/dhruv/mambaforge/envs/cpp/lib/gcc;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/lib;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib;/home/dhruv/mambaforge/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/dhruv/mambaforge/envs/cpp/bin/make -f Makefile cmTC_ef13f/fast && /home/dhruv/mambaforge/envs/cpp/bin/make  -f CMakeFiles/cmTC_ef13f.dir/build.make CMakeFiles/cmTC_ef13f.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c257a/fast && /usr/bin/make -f CMakeFiles/cmTC_c257a.dir/build.make CMakeFiles/cmTC_c257a.dir/build
 make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef13f.dir/CheckIncludeFile.c.o
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include  -o CMakeFiles/cmTC_ef13f.dir/CheckIncludeFile.c.o -c /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ef13f
-/home/dhruv/mambaforge/envs/cpp/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef13f.dir/link.txt --verbose=1
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/dhruv/mambaforge/envs/cpp/lib -Wl,-rpath-link,/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/lib  CMakeFiles/cmTC_ef13f.dir/CheckIncludeFile.c.o -o cmTC_ef13f 
+Building C object CMakeFiles/cmTC_c257a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c257a.dir/CheckIncludeFile.c.o   -c /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c257a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c257a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c257a.dir/CheckIncludeFile.c.o  -o cmTC_c257a 
 make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
 
 
@@ -488,13 +476,13 @@ make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/dhruv/mambaforge/envs/cpp/bin/make -f Makefile cmTC_9396e/fast && /home/dhruv/mambaforge/envs/cpp/bin/make  -f CMakeFiles/cmTC_9396e.dir/build.make CMakeFiles/cmTC_9396e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_9cab0/fast && /usr/bin/make -f CMakeFiles/cmTC_9cab0.dir/build.make CMakeFiles/cmTC_9cab0.dir/build
 make[1]: Entering directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9396e.dir/CheckFunctionExists.c.o
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_9396e.dir/CheckFunctionExists.c.o -c /home/dhruv/mambaforge/envs/cpp/share/cmake-3.21/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9396e
-/home/dhruv/mambaforge/envs/cpp/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9396e.dir/link.txt --verbose=1
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dhruv/mambaforge/envs/cpp/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/dhruv/mambaforge/envs/cpp/lib -Wl,-rpath-link,/home/dhruv/mambaforge/envs/cpp/lib -L/home/dhruv/mambaforge/envs/cpp/lib  CMakeFiles/cmTC_9396e.dir/CheckFunctionExists.c.o -o cmTC_9396e  -lpthread 
+Building C object CMakeFiles/cmTC_9cab0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9cab0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9cab0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cab0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9cab0.dir/CheckFunctionExists.c.o  -o cmTC_9cab0  -lpthread 
 make[1]: Leaving directory '/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/CMakeTmp'
 
 

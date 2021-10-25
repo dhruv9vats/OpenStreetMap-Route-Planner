@@ -1,18 +1,23 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/main.cpp" "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o"
+  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/model.cpp" "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o"
+  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/render.cpp" "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o"
+  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/route_model.cpp" "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o"
+  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/route_planner.cpp" "/home/dhruv/repos/OpenStreetMap-Route-Planner/build/CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/main.cpp" "CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o" "gcc" "CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o.d"
-  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/model.cpp" "CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o" "gcc" "CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o.d"
-  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/render.cpp" "CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o" "gcc" "CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o.d"
-  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/route_model.cpp" "CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o" "gcc" "CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o.d"
-  "/home/dhruv/repos/OpenStreetMap-Route-Planner/src/route_planner.cpp" "CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o" "gcc" "CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../thirdparty/pugixml/src"
+  "/usr/local/include/io2d"
+  "/usr/include/cairo"
+  "/usr/include/GraphicsMagick"
   )
 
 # Targets to which this target links.

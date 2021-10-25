@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "../../../lib/libpugixml.a"
   "../../../lib/libpugixml.pdb"
   "CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o"
-  "CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

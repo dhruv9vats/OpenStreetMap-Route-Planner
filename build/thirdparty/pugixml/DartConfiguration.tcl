@@ -11,10 +11,10 @@ BuildDirectory: /home/dhruv/repos/OpenStreetMap-Route-Planner/build/thirdparty/p
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: Windows10PC
+Site: Windows11PC
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-x86_64-conda-linux-gnu-c++
+BuildName: Linux-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/dhruv/mambaforge/envs/cpp/bin/cmake" "/home/dhruv/repos/OpenStreetMap-Route-Planner/thirdparty/pugixml"
-MakeCommand: /home/dhruv/mambaforge/envs/cpp/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/bin/cmake" "/home/dhruv/repos/OpenStreetMap-Route-Planner/thirdparty/pugixml"
+MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -35,11 +35,11 @@ UpdateVersionOnly:
 
 # CVS options
 # Default is "-d -P -A"
-CVSCommand: 
-CVSUpdateOptions: 
+CVSCommand: CVSCOMMAND-NOTFOUND
+CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: 
+SVNCommand: SVNCOMMAND-NOTFOUND
 SVNOptions: 
 SVNUpdateOptions: 
 
@@ -50,7 +50,7 @@ GITUpdateOptions:
 GITUpdateCustom: 
 
 # Perforce options
-P4Command: 
+P4Command: P4COMMAND-NOTFOUND
 P4Client: 
 P4Options: 
 P4UpdateOptions: 
@@ -62,17 +62,13 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-c++
-CompilerVersion: 11.1.0
+Compiler: /usr/bin/c++
+CompilerVersion: 9.3.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
-DrMemoryCommand: 
-DrMemoryCommandOptions: 
-CudaSanitizerCommand: 
-CudaSanitizerCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
@@ -82,6 +78,10 @@ MemoryCheckSuppressionFile:
 # Coverage
 CoverageCommand: /usr/bin/gcov
 CoverageExtraFlags: -l
+
+# Cluster commands
+SlurmBatchCommand: SLURM_SBATCH_COMMAND-NOTFOUND
+SlurmRunCommand: SLURM_SRUN_COMMAND-NOTFOUND
 
 # Testing options
 # TimeOut is the amount of time in seconds to wait for processes

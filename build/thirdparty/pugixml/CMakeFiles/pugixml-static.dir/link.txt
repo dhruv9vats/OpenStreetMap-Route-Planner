@@ -1,2 +1,2 @@
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-ar qc ../../../lib/libpugixml.a CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o
-/home/dhruv/mambaforge/envs/cpp/bin/x86_64-conda-linux-gnu-ranlib ../../../lib/libpugixml.a
+/usr/bin/ar qc ../../../lib/libpugixml.a  CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o
+/usr/bin/ranlib ../../../lib/libpugixml.a
